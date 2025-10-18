@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:liquibase/changesets/V1__init.sql
+  - include:
+      file: classpath:liquibase/changesets/V2__insert_data.sql
